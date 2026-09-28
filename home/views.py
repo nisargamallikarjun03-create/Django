@@ -11,3 +11,13 @@ def march(request):
     return render(request, 'march.html')
 def intro(request):
     return render(request, 'intro.html')
+def august(request):
+    return render(request, 'august.html')
+def september(request):
+    return render(request, 'september.html')
+def october(request):
+    return render(request, 'october.html')
+def november(request):
+    return render(request, 'november.html')
+def december(request):
+    return render(request, 'december.html')
