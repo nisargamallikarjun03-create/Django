@@ -6,8 +6,8 @@ urlpatterns = [
     
     path('student/', views.student),
     path('january/', views.january, name='january'),
-    path('feb/', views.january, name='feb'),
-    path('march/', views.january, name='march'),
-    path('intro/', views.january, name='intro'),
+    path('feb/', views.feb, name='feb'),
+    path('march/', views.march, name='march'),
+    path('intro/', views.intro, name='intro'),
     
 ]
